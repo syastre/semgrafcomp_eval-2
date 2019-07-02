@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+body{
+	font-family: 'Josefin Sans';
+	font-weight: 400;
+}
+
+h1{
+	font-weight: 400;	
+}
+
+h2,h3,h4,h5,h6,strong{
+	font-family: 'Raleway';
+	font-weight: 700;	
+}
+
+.display-1{
+	font-weight: 700;
+	word-break: break-all;	
+	color: black;
+}
+
+.display-1:nth-child(1){
+   	background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url(https://maxcdn.icons8.com/app/uploads/2018/08/how-to-create-gradient-article.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+  	-webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+.display-1:nth-child(2){
+   	background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url(https://cdn.pixabay.com/photo/2016/10/08/00/16/gradient-1722840_960_720.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+.display-1:nth-child(3){
+   	background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_960_720.png) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+.display-1:nth-child(4){
+   	background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url(https://maxcdn.icons8.com/app/uploads/2018/08/how-to-create-gradient-article.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+
+a#especial{
+	font-style: italic;
+	font-weight: 400;
+	color:red;
+	text-transform: uppercase;
+}
+
+a#especial:before{
+	content:"~";
+}
+
+a#especial:after{
+	content:"~";
+}
+
+button.navbar-toggler{
+	border:none;
+}
